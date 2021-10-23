@@ -24,7 +24,7 @@ SD的/ boot分区应该是FAT32。根（/分区可以是任何首选的 Linux文
 	/dev/sdb5        31889088    32372735      241824   82  Linux swap / Solaris
 
 ### 发行版的选择
-树莓派使用的是ARM架构的linux系统。对于发行版，我们可以选择Debian系下的产品（如Ubuntu的server版本，也可以选择树莓派的官方镜像）。由于Arch LInux只支持x86_64架构,因此不适用于安装。
+树莓派使用的是ARM架构的linux系统。对于发行版，我们可以选择Debian系下的产品（如Ubuntu的server版本，也可以选择树莓派的官方镜像）
 而我这次选择的是Gentoo Linux，因为它支持arm架构，同时支持32位，同时Gentoo Linux 支持编译整个系统，把原来官方提供的stage3 tarball里的所有组件替换成自己编译的（包括GCC编译器和所有基本系统组件），这样一来整个系统的所有程序和组件都是针对树莓派CPU架构优化编译的了，争取性能最大化。
 
 
