@@ -1,7 +1,7 @@
 # Gentoo-on-rpi4
 Gentoo on rpi4 
 ```
-Otto Deng
+@Author:Otto Deng
 ```
 
 ## 基础安装
